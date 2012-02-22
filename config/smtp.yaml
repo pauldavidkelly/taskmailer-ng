@@ -1,0 +1,7 @@
+:address: ***REMOVED***
+:***REMOVED***
+:enable_starttls_auto: true
+:user_name: user
+:password: password
+:authentication: plain
+:domain: localhost.localdomain
