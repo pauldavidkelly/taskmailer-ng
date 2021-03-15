@@ -1,7 +1,7 @@
-:address: ***REMOVED***
+:address: smtp.address
 :***REMOVED***
 :enable_starttls_auto: true
-:user_name: ***REMOVED***
-:password: ***REMOVED***
+:user_name: tasks@useremail.com
+:password: password
 :authentication: login
 :domain: localhost.localdomain
