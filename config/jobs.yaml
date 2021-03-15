@@ -1,7 +1,0 @@
-:job1:
-    :email:   paul@kelly.ky
-    :from:    tasks@pitcaple.it
-    :subject: Daily Taskwarrior Status
-    :projects:
-      - today
-      - tomorrow
