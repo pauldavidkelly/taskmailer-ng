@@ -1,0 +1,7 @@
+:job1:
+    :email:   example@useremail.com
+    :from:    tasks@useremail.com
+    :subject: Daily Taskwarrior Status
+    :due:
+      - today
+      - tomorrow

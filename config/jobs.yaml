@@ -1,8 +1,7 @@
 :job1:
-    :email:   your.email.address@email.com
-    :from:    taskmailer@localhost
+    :email:   paul@kelly.ky
+    :from:    tasks@pitcaple.it
     :subject: Daily Taskwarrior Status
     :projects:
-      - Home
-      - Work
-      - Shopping
+      - today
+      - tomorrow

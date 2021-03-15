@@ -1,7 +1,7 @@
-:address: smtp.gmail.com
+:address: smtp.mailgun.org
 :port: 587
 :enable_starttls_auto: true
-:user_name: user
-:password: password
-:authentication: plain
+:user_name: tasks@pitcaple.it
+:password: 4b3068cfc9a6121328a4ea804ab39780-d32d817f-6ce432f5
+:authentication: login
 :domain: localhost.localdomain
