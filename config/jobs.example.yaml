@@ -5,3 +5,5 @@
     :due:
       - today
       - tomorrow
+    :projects:
+      - none
