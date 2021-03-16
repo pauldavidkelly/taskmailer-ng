@@ -1,6 +1,6 @@
 == ABOUT ==
 TaskMailer is a small ruby application designed to email you status updates 
-based on your TaskWarrior to-do lists.  
+based on your TaskWarrior to-do lists. It cansend you tasks based on project name or due date. 
 
 TaskWarrior is a "command-line todo list manager."  It's a great application 
 for organizing and prioritizing tasks. Learn more about it by visiting 
@@ -23,7 +23,9 @@ Edit config/smtp.yaml to contain the SMTP information of your the mail server
 you will be using to send out email.
 
 Edit config/jobs.yaml with the email address, subject, line, and TaskWarrior
-projets you wish to send out.  You can add multiple jobs to the list!
+projets or due dates you wish to send out.  You can add multiple jobs to the list!
+
+Project and due date sections cannot be blank, so add a date or project name that will return no results if you don't want to use that section.
 
 Invoke taskwarrior.rb to send out your emails.  Make it a cron job for extra
 points!
