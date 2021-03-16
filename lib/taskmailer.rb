@@ -24,9 +24,19 @@ class TaskMailer
 
   def get_email_contents(job)
       output = Array.new
+
+      # Get projects      
       job[:projects].each do |project|
-        output.push( invoke_tw(project) )
+        cmd = "project:#{project}"
+        output.push( invoke_tw(cmd) )
       end
+      
+      # Get tasks due today and tomorrow
+      job[:due].each do |due|
+        cmd = "due:#{due}" 
+        output.push( invoke_tw(cmd))
+      end
+      
       return output
   end
 
@@ -49,8 +59,8 @@ class TaskMailer
     )
   end
 
-  def invoke_tw(project)
-    cmd = "task list pro:#{project}"
+  def invoke_tw(filter)
+    cmd = "task list #{filter}"
     return %x(#{cmd})
   end
 end
