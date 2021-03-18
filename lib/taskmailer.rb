@@ -60,7 +60,7 @@ class TaskMailer
   end
 
   def invoke_tw(filter)
-    cmd = "task list #{filter}"
+    cmd = "task minimal #{filter}"
     return %x(#{cmd})
   end
 end
